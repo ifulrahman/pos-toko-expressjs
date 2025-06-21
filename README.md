@@ -14,6 +14,13 @@ This project supports admin-based product management, public user cart, and invo
 
 ---
 
+## ⚠️ Note
+- You can use the [Postman Collection JSON here](https://drive.google.com/drive/folders/12wPDK63IRgmqvZGOMgDL-G-omifiTiDd?usp=drive_link).
+- Watch the [Demo Video here](https://drive.google.com/file/d/1xMqBSYD2n-XDkAcQ6sf77w_w3XTImVxu/view?usp=drive_link).
+
+
+---
+
 ## Features
 
 ### 🔐Admin (JWT Protected)
