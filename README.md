@@ -84,6 +84,8 @@ PORT=3000
 > - Fresh clone? Don’t forget to **run Step 4** to set up your database — or you’ll run into errors.
 > - Already have the database? **Skip Step 4**, just start the server and you’re good to go! 🚀
 
+> **Important:** Ensure MySQL is running in **XAMPP** (you do not need Apache).
+
 ```bash
 npx sequelize db:create
 npx sequelize db:migrate
