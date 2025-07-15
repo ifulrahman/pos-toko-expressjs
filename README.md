@@ -63,11 +63,13 @@ npm install
 Create a `.env` file in the root directory:
 
 ```
-DB_USERNAME=root
-DB_PASSWORD=your_mysql_password
+### Setup .env
 DB_NAME=syaiful_toko
+DB_USER=root
+DB_PASSWORD=
 DB_HOST=127.0.0.1
-JWT_SECRET=your_jwt_secret
+DB_DIALECT=mysql
+JWT_SECRET=superscretkey
 PORT=3000
 ```
 
@@ -76,6 +78,11 @@ PORT=3000
 ---
 
 ### 4. Setup Database
+
+> ⚠️ **Heads Up:**
+> 
+> - Fresh clone? Don’t forget to **run Step 4** to set up your database — or you’ll run into errors.
+> - Already have the database? **Skip Step 4**, just start the server and you’re good to go! 🚀
 
 ```bash
 npx sequelize db:create
